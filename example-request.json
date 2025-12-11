@@ -1,0 +1,40 @@
+{
+  "input": {
+    "workflow": {
+      "2": {
+        "inputs": {
+          "text": ""
+        },
+        "class_type": "Storydiffusion_Model_Loader",
+        "_meta": {
+          "title": "Storydiffusion_Model_Loader"
+        }
+      },
+      "3": {
+        "inputs": {
+          "filename": "[Taylor] a woman img, wearing a white T-shirt, blue loose hair.\n[Lecun] a man img,wearing a suit,black hair.",
+          "model": [
+            "2",
+            0
+          ]
+        },
+        "class_type": "Storydiffusion_Sampler",
+        "_meta": {
+          "title": "Storydiffusion_Sampler"
+        }
+      },
+      "4": {
+        "inputs": {
+          "images": [
+            "3",
+            0
+          ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+          "title": "PreviewImage"
+        }
+      }
+    }
+  }
+}
